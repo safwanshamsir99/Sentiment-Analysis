@@ -1,5 +1,9 @@
 <a><img alt = 'python' src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white"></a>
 <a><img alt = 'spyder' src="https://img.shields.io/badge/Spyder%20Ide-FF0000?style=for-the-badge&logo=spyder%20ide&logoColor=white"></a>
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
 <a><img alt='tf' src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"></a>
 
 
@@ -17,13 +21,16 @@
 ![model_architecture](static/model.png)
 
 ## Results
-1. The model achieved 85% accuracy during training. Recall and f1 score reports 81% and 84% respectively. However
+
+
 
 ## Discussion
-
+1. The model achieved 85% accuracy during training. 
+2. Recall and f1 score reports 81% and 84% respectively. 
+3. However, the model starts to overfit after 2nd epochs. Early stopping can be used to prevent overfitting. The dropout data can be increased to control overfitting.
 
 ## Credits:
-Shout out to 
+Shout out to Ankit152 for IMDB Dataset.
 ### Dataset link
 [IMDB-Sentiment-Analysis](https://github.com/Ankit152/IMDB-sentiment-analysis)
 
