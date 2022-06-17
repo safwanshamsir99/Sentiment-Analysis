@@ -28,7 +28,7 @@ Training accuracy & Validation accuracy:
 ![model_accuracy](static/accuracy.png)
 
 Model score:
-![model_score](static/score_sentiment.png)
+![model_score](static/score_sentiment.PNG)
 
 ## Discussion
 1. The model achieved 85% accuracy during training. 
@@ -36,7 +36,7 @@ Model score:
 3. However, the model starts to overfit after 2nd epochs. Early stopping can be used to prevent overfitting. The dropout data can be increased to control overfitting.
 
 ## Credits:
-Shout out to Ankit152 for IMDB Dataset.
+Shout out to Ankit152 for the IMDB Dataset. Check out the dataset by clicking the link below. :smile:
 ### Dataset link
 [IMDB-Sentiment-Analysis](https://github.com/Ankit152/IMDB-sentiment-analysis)
 
