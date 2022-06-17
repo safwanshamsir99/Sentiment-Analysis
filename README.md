@@ -21,8 +21,14 @@
 ![model_architecture](static/model.png)
 
 ## Results
+Training loss & Validation loss:
+![model_loss](static/loss.png)
 
+Training accuracy & Validation accuracy:
+![model_accuracy](static/accuracy.png)
 
+Model score:
+![model_score](static/score_sentiment.png)
 
 ## Discussion
 1. The model achieved 85% accuracy during training. 
