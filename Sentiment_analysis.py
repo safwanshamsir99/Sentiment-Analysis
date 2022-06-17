@@ -148,12 +148,14 @@ plt.figure()
 plt.plot(hist.history['loss'])
 plt.plot(hist.history['val_loss'])
 plt.legend(['training loss','validation loss'])
+plt.title('Loss')
 plt.show()
 
 plt.figure()
 plt.plot(hist.history['acc'])
 plt.plot(hist.history['val_acc'])
 plt.legend(['training accuracy','validation accuracy'])
+plt.title('Accuracy')
 plt.show()
 
 #%% Model evaluation
@@ -186,7 +188,7 @@ with open(OHE_PATH,'wb') as file:
 #%% Discussion/reporting
 '''
 Discuss the result:
-    Model achoeved 85% accuracy during training. Recall and f1 score reports
+    Model achieved 85% accuracy during training. Recall and f1 score reports
     81% and 84% respectively. However, the model starts to overfit after 2nd
     epochs.
     Early stopping can be introduced to prevent overfitting.
