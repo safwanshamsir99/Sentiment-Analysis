@@ -31,8 +31,8 @@ Model score:
 ![model_score](static/score_sentiment.PNG)
 
 ## Discussion
-1. The model achieved 85% accuracy during training. 
-2. Recall and f1 score reports 81% and 84% respectively. 
+1. The model achieved 84% accuracy during training. 
+2. Both recall and f1 score report 85%. 
 3. However, the model starts to overfit after 2nd epochs. Early stopping can be used to prevent overfitting. The dropout data can be increased to control overfitting.
 
 ## Credits:
