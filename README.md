@@ -39,4 +39,3 @@ Model score:
 Shout out to Ankit152 for the IMDB Dataset. Check out the dataset by clicking the link below. :smile:
 ### Dataset link
 [IMDB-Sentiment-Analysis](https://github.com/Ankit152/IMDB-sentiment-analysis)
-
