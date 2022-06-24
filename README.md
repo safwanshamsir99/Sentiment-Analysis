@@ -21,13 +21,17 @@
 ![model_architecture](static/model.png)
 
 ## Results
-Training loss & Validation loss:
+
+### Training loss & Validation loss:
+
 ![model_loss](static/loss.png)
 
-Training accuracy & Validation accuracy:
+### Training accuracy & Validation accuracy:
+
 ![model_accuracy](static/accuracy.png)
 
-Model score:
+### Model score:
+
 ![model_score](static/score_sentiment.PNG)
 
 ## Discussion
